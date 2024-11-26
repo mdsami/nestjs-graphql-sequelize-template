@@ -1,8 +1,8 @@
 {
   "name": "nestjs-graphql-sequelize-template",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "A template for NestJs, which contains Sequelize with postgres Database, sequelize migration, graphQl and Swagger API Documentation.",
+  "author": "mdsami",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -23,8 +23,17 @@
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
+    "@nestjs/swagger": "^8.0.7",
+    "bcrypt": "^5.1.1",
+    "d": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "mau": "^0.3.3",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
     "reflect-metadata": "^0.2.0",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "sequelize": "^6.37.5",
+    "sequelize-typescript": "^2.1.6"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
@@ -47,7 +56,8 @@
     "ts-loader": "^9.4.3",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.1.3"
+    "typescript": "^5.1.3",
+    "sequelize-cli": "^6.6.2"
   },
   "jest": {
     "moduleFileExtensions": [
